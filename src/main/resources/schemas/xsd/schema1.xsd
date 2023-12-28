@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+    
+  <xs:complexType name="patient">
+        
+    <xs:sequence>
+            
+      <xs:element minOccurs="0" name="address1" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="address2" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="address3" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="countryCode" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="dateOfBirth" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="firstName" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="gender" type="xs:string"/>
+            
+      <xs:element name="insuranceId" type="xs:int"/>
+            
+      <xs:element minOccurs="0" name="lastName" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="middleName" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="phoneNumber" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="ssn" type="xs:string"/>
+            
+      <xs:element minOccurs="0" name="state" type="xs:string"/>
+            
+      <xs:element name="zipcode" type="xs:int"/>
+          
+    </xs:sequence>
+      
+  </xs:complexType>
+  
+</xs:schema>
